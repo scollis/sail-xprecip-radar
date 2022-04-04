@@ -1,0 +1,6 @@
+format: jb-book
+root: overview
+parts:
+- caption: Looking at the Domain
+  chapters:
+    - glob: domain-exploration/*

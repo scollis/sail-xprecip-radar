@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>SAIL_As_Built[1].xlsx - AsBuiltSAIL_TableToExcel.csv</name>
+	<Schema name="SAIL_As_Built[1]" id="S_SAIL_As_Built_1__ISDDI">
+		<SimpleField type="int" name="OBJECTID"><displayName>&lt;b&gt;OBJECTID&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Instrument"><displayName>&lt;b&gt;Instrument&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Lat"><displayName>&lt;b&gt;Lat&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Lon"><displayName>&lt;b&gt;Lon&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="Elevation"><displayName>&lt;b&gt;Elevation&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>OBJECTID</b></td><td>$[SAIL_As_Built[1]/OBJECTID]</td></tr>
+  <tr><td><b>Instrument</b></td><td>$[SAIL_As_Built[1]/Instrument]</td></tr>
+  <tr><td><b>Lat</b></td><td>$[SAIL_As_Built[1]/Lat]</td></tr>
+  <tr><td><b>Lon</b></td><td>$[SAIL_As_Built[1]/Lon]</td></tr>
+  <tr><td><b>Elevation</b></td><td>$[SAIL_As_Built[1]/Elevation]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>OBJECTID</b></td><td>$[SAIL_As_Built[1]/OBJECTID]</td></tr>
+  <tr><td><b>Instrument</b></td><td>$[SAIL_As_Built[1]/Instrument]</td></tr>
+  <tr><td><b>Lat</b></td><td>$[SAIL_As_Built[1]/Lat]</td></tr>
+  <tr><td><b>Lon</b></td><td>$[SAIL_As_Built[1]/Lon]</td></tr>
+  <tr><td><b>Elevation</b></td><td>$[SAIL_As_Built[1]/Elevation]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Folder id="layer 0">
+		<name>SAIL_As_Built[1]</name>
+		<open>1</open>
+		<Placemark>
+			<name>KAZR</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SAIL_As_Built_1__ISDDI">
+					<SimpleData name="OBJECTID">1</SimpleData>
+					<SimpleData name="Instrument">KAZR</SimpleData>
+					<SimpleData name="Lat">38.956</SimpleData>
+					<SimpleData name="Lon">-106.988</SimpleData>
+					<SimpleData name="Elevation">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-106.9878402,38.95602146999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HSRL</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SAIL_As_Built_1__ISDDI">
+					<SimpleData name="OBJECTID">2</SimpleData>
+					<SimpleData name="Instrument">HSRL</SimpleData>
+					<SimpleData name="Lat">38.956</SimpleData>
+					<SimpleData name="Lon">-106.988</SimpleData>
+					<SimpleData name="Elevation">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-106.9878032,38.95602472999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>RWP</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SAIL_As_Built_1__ISDDI">
+					<SimpleData name="OBJECTID">3</SimpleData>
+					<SimpleData name="Instrument">RWP</SimpleData>
+					<SimpleData name="Lat">38.9559</SimpleData>
+					<SimpleData name="Lon">-106.988</SimpleData>
+					<SimpleData name="Elevation">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-106.9877822,38.95593620000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MAERI</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SAIL_As_Built_1__ISDDI">
+					<SimpleData name="OBJECTID">4</SimpleData>
+					<SimpleData name="Instrument">MAERI</SimpleData>
+					<SimpleData name="Lat">38.9561</SimpleData>
+					<SimpleData name="Lon">-106.988</SimpleData>
+					<SimpleData name="Elevation">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-106.9878499,38.95608467999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CEIL</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SAIL_As_Built_1__ISDDI">
+					<SimpleData name="OBJECTID">5</SimpleData>
+					<SimpleData name="Instrument">CEIL</SimpleData>
+					<SimpleData name="Lat">38.9561</SimpleData>
+					<SimpleData name="Lon">-106.988</SimpleData>
+					<SimpleData name="Elevation">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-106.9878325,38.95609463000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MPL</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SAIL_As_Built_1__ISDDI">
+					<SimpleData name="OBJECTID">6</SimpleData>
+					<SimpleData name="Instrument">MPL</SimpleData>
+					<SimpleData name="Lat">38.9561</SimpleData>
+					<SimpleData name="Lon">-106.988</SimpleData>
+					<SimpleData name="Elevation">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-106.9878198,38.95609657000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DL</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SAIL_As_Built_1__ISDDI">
+					<SimpleData name="OBJECTID">7</SimpleData>
+					<SimpleData name="Instrument">DL</SimpleData>
+					<SimpleData name="Lat">38.9561</SimpleData>
+					<SimpleData name="Lon">-106.988</SimpleData>
+					<SimpleData name="Elevation">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-106.9878012,38.95609378000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MWR3C</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SAIL_As_Built_1__ISDDI">
+					<SimpleData name="OBJECTID">8</SimpleData>
+					<SimpleData name="Instrument">MWR3C</SimpleData>
+					<SimpleData name="Lat">38.9561</SimpleData>
+					<SimpleData name="Lon">-106.988</SimpleData>
+					<SimpleData name="Elevation">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-106.9878443,38.95612946000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MWR2C</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SAIL_As_Built_1__ISDDI">
+					<SimpleData name="OBJECTID">9</SimpleData>
+					<SimpleData name="Instrument">MWR2C</SimpleData>
+					<SimpleData name="Lat">38.9561</SimpleData>
+					<SimpleData name="Lon">-106.988</SimpleData>
+					<SimpleData name="Elevation">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-106.9878298,38.95612970999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CIMEL</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SAIL_As_Built_1__ISDDI">
+					<SimpleData name="OBJECTID">10</SimpleData>
+					<SimpleData name="Instrument">CIMEL</SimpleData>
+					<SimpleData name="Lat">38.9561</SimpleData>
+					<SimpleData name="Lon">-106.988</SimpleData>
+					<SimpleData name="Elevation">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-106.9878677,38.95612073000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MFRSR</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SAIL_As_Built_1__ISDDI">
+					<SimpleData name="OBJECTID">11</SimpleData>
+					<SimpleData name="Instrument">MFRSR</SimpleData>
+					<SimpleData name="Lat">38.9561</SimpleData>
+					<SimpleData name="Lon">-106.988</SimpleData>
+					<SimpleData name="Elevation">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-106.9878705,38.95613029,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TSI</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SAIL_As_Built_1__ISDDI">
+					<SimpleData name="OBJECTID">12</SimpleData>
+					<SimpleData name="Instrument">TSI</SimpleData>
+					<SimpleData name="Lat">38.9561</SimpleData>
+					<SimpleData name="Lon">-106.988</SimpleData>
+					<SimpleData name="Elevation">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-106.9878123,38.95613128,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SKYIRT</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SAIL_As_Built_1__ISDDI">
+					<SimpleData name="OBJECTID">13</SimpleData>
+					<SimpleData name="Instrument">SKYIRT</SimpleData>
+					<SimpleData name="Lat">38.9563</SimpleData>
+					<SimpleData name="Lon">-106.987</SimpleData>
+					<SimpleData name="Elevation">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-106.9865215,38.95633348000003,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ORG</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SAIL_As_Built_1__ISDDI">
+					<SimpleData name="OBJECTID">14</SimpleData>
+					<SimpleData name="Instrument">ORG</SimpleData>
+					<SimpleData name="Lat">38.9564</SimpleData>
+					<SimpleData name="Lon">-106.987</SimpleData>
+					<SimpleData name="Elevation">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-106.9865135,38.95640878000003,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PWD</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SAIL_As_Built_1__ISDDI">
+					<SimpleData name="OBJECTID">15</SimpleData>
+					<SimpleData name="Instrument">PWD</SimpleData>
+					<SimpleData name="Lat">38.9565</SimpleData>
+					<SimpleData name="Lon">-106.987</SimpleData>
+					<SimpleData name="Elevation">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-106.9865512,38.9565027,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TBRG</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SAIL_As_Built_1__ISDDI">
+					<SimpleData name="OBJECTID">16</SimpleData>
+					<SimpleData name="Instrument">TBRG</SimpleData>
+					<SimpleData name="Lat">38.9565</SimpleData>
+					<SimpleData name="Lon">-106.986</SimpleData>
+					<SimpleData name="Elevation">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-106.9861292,38.95652158,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SRG</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SAIL_As_Built_1__ISDDI">
+					<SimpleData name="OBJECTID">17</SimpleData>
+					<SimpleData name="Instrument">SRG</SimpleData>
+					<SimpleData name="Lat">38.9565</SimpleData>
+					<SimpleData name="Lon">-106.986</SimpleData>
+					<SimpleData name="Elevation">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-106.9861441,38.95651823000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PLUVIO</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SAIL_As_Built_1__ISDDI">
+					<SimpleData name="OBJECTID">18</SimpleData>
+					<SimpleData name="Instrument">PLUVIO</SimpleData>
+					<SimpleData name="Lat">38.9565</SimpleData>
+					<SimpleData name="Lon">-106.986</SimpleData>
+					<SimpleData name="Elevation">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-106.9861362,38.95651019999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LDIS 1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SAIL_As_Built_1__ISDDI">
+					<SimpleData name="OBJECTID">19</SimpleData>
+					<SimpleData name="Instrument">LDIS 1</SimpleData>
+					<SimpleData name="Lat">38.9565</SimpleData>
+					<SimpleData name="Lon">-106.986</SimpleData>
+					<SimpleData name="Elevation">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-106.9861221,38.95651199000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SKYTRACKER</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SAIL_As_Built_1__ISDDI">
+					<SimpleData name="OBJECTID">20</SimpleData>
+					<SimpleData name="Instrument">SKYTRACKER</SimpleData>
+					<SimpleData name="Lat">38.9566</SimpleData>
+					<SimpleData name="Lon">-106.986</SimpleData>
+					<SimpleData name="Elevation">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-106.9859182,38.95657775000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SKYPSP</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SAIL_As_Built_1__ISDDI">
+					<SimpleData name="OBJECTID">21</SimpleData>
+					<SimpleData name="Instrument">SKYPSP</SimpleData>
+					<SimpleData name="Lat">38.9566</SimpleData>
+					<SimpleData name="Lon">-106.986</SimpleData>
+					<SimpleData name="Elevation">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-106.9859177,38.95658679,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ECOR/SEBS</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SAIL_As_Built_1__ISDDI">
+					<SimpleData name="OBJECTID">22</SimpleData>
+					<SimpleData name="Instrument">ECOR/SEBS</SimpleData>
+					<SimpleData name="Lat">38.9565</SimpleData>
+					<SimpleData name="Lon">-106.985</SimpleData>
+					<SimpleData name="Elevation">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-106.9851707,38.95649094000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MET TOWER</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SAIL_As_Built_1__ISDDI">
+					<SimpleData name="OBJECTID">23</SimpleData>
+					<SimpleData name="Instrument">MET TOWER</SimpleData>
+					<SimpleData name="Lat">38.9564</SimpleData>
+					<SimpleData name="Lon">-106.986</SimpleData>
+					<SimpleData name="Elevation">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-106.9864147,38.95637186,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MRF10M</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SAIL_As_Built_1__ISDDI">
+					<SimpleData name="OBJECTID">24</SimpleData>
+					<SimpleData name="Instrument">MFR10M</SimpleData>
+					<SimpleData name="Lat">38.9564</SimpleData>
+					<SimpleData name="Lon">-106.986</SimpleData>
+					<SimpleData name="Elevation">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-106.9864139,38.95635476000003,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GNDPSP</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SAIL_As_Built_1__ISDDI">
+					<SimpleData name="OBJECTID">25</SimpleData>
+					<SimpleData name="Instrument">GNDPSP</SimpleData>
+					<SimpleData name="Lat">38.9564</SimpleData>
+					<SimpleData name="Lon">-106.986</SimpleData>
+					<SimpleData name="Elevation">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-106.9864141,38.95635101,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GNDPIR</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SAIL_As_Built_1__ISDDI">
+					<SimpleData name="OBJECTID">26</SimpleData>
+					<SimpleData name="Instrument">GNDPIR</SimpleData>
+					<SimpleData name="Lat">38.9564</SimpleData>
+					<SimpleData name="Lon">-106.986</SimpleData>
+					<SimpleData name="Elevation">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-106.9864156,38.95639313000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GNDIRT</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SAIL_As_Built_1__ISDDI">
+					<SimpleData name="OBJECTID">27</SimpleData>
+					<SimpleData name="Instrument">GNDIRT</SimpleData>
+					<SimpleData name="Lat">38.9564</SimpleData>
+					<SimpleData name="Lon">-106.986</SimpleData>
+					<SimpleData name="Elevation">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-106.9864085,38.95637184,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MAWS</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffaa55</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_SAIL_As_Built_1__ISDDI">
+					<SimpleData name="OBJECTID">28</SimpleData>
+					<SimpleData name="Instrument">MAWS</SimpleData>
+					<SimpleData name="Lat">38.9586</SimpleData>
+					<SimpleData name="Lon">-106.987</SimpleData>
+					<SimpleData name="Elevation">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-106.9874427,38.95861598999999,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
